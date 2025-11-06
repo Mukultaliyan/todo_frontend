@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Todo-List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>My Todo-List</h1>
+  <form action="" id="task-form">
+    <input type="text" id="task-input" placeholder="Add a new task..." required>
+    <button type="submit">Add Task</button>
+  </form>
+  <ul id="task-list">
+
+  </ul>
+  <hr> <h2>Send List via SMS</h2>
+    <form id="sms-form">
+        <input 
+            type="tel" 
+            id="phone-input" 
+            placeholder="Enter phone number..." 
+            required>
+        <button type="submit">Send to Phone</button>
+    </form>
+  <script src="app.js"></script>
+
+  
+</body>
+</html>
